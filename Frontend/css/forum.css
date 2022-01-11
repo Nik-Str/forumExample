@@ -1,0 +1,653 @@
+/*------------------------main body---------------------------*/
+body {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 0.8em;
+  background-color: black;
+}
+
+h1, h2  {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+h3{
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.8rem;
+  margin-bottom: 0rem;
+}
+
+h5{
+  font-size: 1.2rem;
+  color: rgb(80, 80, 80);
+  margin: auto;
+}
+
+/*-------------------------HeaderNavbar-------------------------*/
+.navbar {
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  margin-top: 0.2rem;
+  font-size: 0.9rem !important;
+  padding: 0.5rem;
+}
+
+#searchBar{
+  color: rgb(128, 128, 128);
+  background-color: rgba(46, 46, 46, 0.705);
+  border: 0.1rem solid rgba(90, 90, 90, 0.7);
+  color: rgb(180, 180, 180);
+}
+
+#searchBar::placeholder{
+  text-align: center;
+} 
+
+#searContainer{
+  height: 100%;
+}
+
+.searchOption{
+  background-color: black;
+  color: rgb(180, 180, 180);
+  border: 0.1rem solid rgba(90, 90, 90, 0.7);
+  transition: 1s;
+}
+
+.navbar-toggler {
+  padding: 0.3rem;
+}
+
+input,
+textarea,
+button,
+.btn {
+  font-size: 0.8rem !important;
+}
+
+.dropdown-item{
+  color: rgb(180, 180, 180);
+  font-size: 1rem;
+  transition: 1s;
+}
+
+/*-----------------------------Footer-----------------------------*/
+.fot {
+  color: rgb(128, 128, 128);
+  margin-bottom: 0rem;
+}
+
+.p-2 {
+  font-size: 0.7rem;
+  color: rgb(124, 124, 124);
+}
+
+footer .bi {
+  color: rgb(124, 124, 124);
+}
+
+/*----------------------------Index underheader---------------------*/
+.indexDiv, .DateDiv {
+  text-align: center;
+  border: 0.1rem solid black;
+  font-size: 0.6rem;
+  transition: 1s;
+  color: rgb(128, 128, 128);
+}
+
+.indexH {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.divLeft,
+.divRight {
+  display: inline-block;
+}
+
+.divLeft {
+  color: rgb(201, 201, 201);
+}
+
+.divRight {
+  font-size: 0.7rem;
+}
+
+/*---------------------------Forum R,C,L----------------------------------*/
+#divLeft {
+  border: 0.1rem solid rgba(90, 90, 90, 0.7);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2),
+    0 6px 20px 0 rgba(41, 41, 41, 0.19);
+  overflow-y: scroll;
+  height: 82vh;
+}
+
+#divLeft p {
+  margin-bottom: 0.5rem;
+}
+
+#divCenter {
+  border-left: 0.1rem solid rgba(90, 90, 90, 0.7);
+  border-right: 0.1rem solid rgba(90, 90, 90, 0.7);
+  overflow-y: scroll;
+  height: 82vh;
+}
+
+#mainDiv {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.btnForumDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 0.1rem solid rgba(90, 90, 90, 0.7);
+}
+
+.IndexHeader {
+  margin-bottom: 0rem;
+}
+
+.chartMain {
+  height: 10rem;
+  border-bottom: 0.1rem solid rgba(90, 90, 90, 0.7);
+}
+
+/*------------------Subject and some from thread /Left column---------------*/
+#divLeft {
+  text-align: center;
+}
+
+#indexDiv,
+#threadDivContainer {
+  margin-top: 1rem;
+  color: rgb(119, 119, 119) !important;
+}
+
+.subjectP {
+  padding: 0.3rem;
+  transition: 1s;
+}
+
+/*--------------------------Thread/right column & Content center------------------*/
+.threadDiv {
+  border-bottom: 0.1rem solid rgba(39, 39, 39, 0.7);
+  margin-bottom: 0.5rem;
+  transition: 1s;
+  padding: 0.3rem;
+}
+
+.threadDate, .contentDate {
+  margin-bottom: 0.2rem;
+  margin-top: 0rem;
+  font-size: 0.6rem;
+  color: rgb(61, 61, 61);
+}
+
+.contentDiv {
+  margin-top: 0.2rem;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid rgba(39, 39, 39, 0.7);
+}
+
+.contentUser,
+.contentText,
+.contentDate,
+.threadTitle {
+  margin: 0rem;
+}
+
+.contentUser {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.contentText {
+  color: rgb(180, 180, 180);
+  margin-bottom: 0.5rem;
+}
+
+#divRight{
+  padding: 0rem;
+}
+
+#trendDivRight, #threadDivRight{
+  border: 0.1rem solid rgba(90, 90, 90, 0.7);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2),
+    0 6px 20px 0 rgba(41, 41, 41, 0.19);
+  overflow-y: scroll;
+  height: 40.5vh;
+}
+
+#threadDivRight{
+  margin-bottom: 1vh;
+  padding: 0.5rem;
+}
+
+#trendDivRight {
+  padding: 0.5rem;
+}
+
+#conBtn{
+  margin-left: 30%;
+  width: 40%;
+  display: none;
+  padding: 0.1rem;
+}
+
+#conBtn span {
+  margin: 0.1rem;
+  font-size: 1rem;
+}
+
+.contentEditDiv, .editDiv, .eeedit{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentEditDiv div, .editDiv div, .eeedit span, .eeedit p{
+  display: inline-block;
+}
+
+.eeedit{
+  margin-right: 0.5rem;
+}
+
+.eeedit p {
+  margin: 0rem;
+  font-size: 0.6rem;
+  color: rgb(150, 150, 150);
+}
+
+.contentEditDiv span{
+  font-size: 1rem;
+  transition: 1s;
+}
+
+.contentEditDiv span:hover{
+  color: rgb(226, 226, 226);
+  cursor: pointer;
+}
+/*----------------------------Welcome text----------------------------------- */
+.infoH2{
+  color: rgb(180, 180, 180);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.infoText{
+  color: rgb(150, 150, 150);
+  text-align: center;
+}
+
+.infoText strong {
+  color: rgb(180, 180, 180);
+  text-decoration: underline;
+}
+
+.infoText i {
+  font-size: 1.2rem;
+}
+
+/*----------------------------Modal comment------------------------------------*/
+.modal-body {
+  padding: 0%;
+  height: 100% !important;
+}
+
+.modal-content {
+  background-color: rgb(0, 0, 0);
+  border: 0.1rem solid rgba(90, 90, 90, 0.7) !important;
+  box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.2),
+    0 6px 20px 0 rgba(41, 41, 41, 0.19);
+  color: rgb(204, 204, 204) !important;
+}
+
+.modal-body input, .modal-body textarea, .formNewUser input{
+  background-color: rgba(34, 34, 34, 0.199) !important;
+  border: 0.1rem solid rgba(90, 90, 90, 0.7);
+  color: rgb(180, 180, 180) !important;
+}
+
+.modal-footer {
+  border-top: 0.1rem solid rgba(121, 121, 121, 0.7) !important;
+}
+
+.modal-header {
+  border-bottom: 0.1rem solid rgba(121, 121, 121, 0.7) !important;
+}
+
+#newTFoot, #commentFoot, #uppdateFoot{
+  display: flex;
+  justify-content: center;
+}
+
+#newTForum, #newTFoot {
+  display: none;
+}
+
+.selectOption{
+  background-color: black;
+  color: rgb(180, 180, 180);
+  border: 0.1rem solid rgba(90, 90, 90, 0.7);
+  transition: 1s;
+}
+
+#newThre, #newText, #userLoginName, #passLoginWord, #commentText, .subSelect, #newUserName, #NewUserPassWord, #NewUserPassWordRep, #uppdateText, #loginAlert, #createAlert, #createAlertSucc{
+  width: 94%;
+  margin: 3%;
+}
+
+/*-----------------------------Offcanvas Left-------------------------*/
+#offcanvasWithBothOptions, #offcanvasWithBothOptions1 {
+  background-color: black !important;
+  border-right: 0.1rem solid rgba(90, 90, 90, 0.7);
+  text-align: center;
+  color: rgb(70, 70, 70);
+}
+
+.leftOffDiv {
+  margin-top: 0.5rem;
+  border-bottom: 0.1rem solid rgba(39, 39, 39, 0.7);
+  transition: 1s;
+  text-align: left;
+  padding: 0.3rem;
+  color: rgb(61, 61, 61);
+}
+
+.leftOffIndex {
+  margin: 0rem;
+}
+
+.leftOffThread {
+  margin: 0rem;
+  font-size: 0.6rem;
+  font-style: italic;
+  color: rgb(140, 140, 140);
+}
+
+.leftOffContent{
+  margin: 0rem;
+  color: rgb(180, 180, 180);
+  max-height: 2.4rem;
+  overflow-y: hidden;
+}
+
+.leftOffDate {
+  margin-bottom: 0.2rem;
+  margin-top: 0rem;
+  font-size: 0.6rem;
+  color: rgb(61, 61, 61);
+}
+
+#threadWelcome{
+  text-align: center;
+}
+
+/*-----------------------------Offcanvas Right--------------------------------*/
+#offcanvasRight, #offcanvasRight1  {
+  background-color: black !important;
+  border-left: 0.1rem solid rgba(90, 90, 90, 0.7);
+  text-align: center;
+  color: rgb(70, 70, 70);
+}
+
+#offcanvasRight .offcanvas-body  {
+  padding: 0.5rem;
+}
+
+.offcanvas-body .bi {
+  font-size: 3rem !important;
+  color: rgb(180, 180, 180);
+}
+
+#userName {
+  color: rgb(180, 180, 180);
+}
+
+#changeP {
+  display: none;
+}
+
+.rightOffDiv {
+  margin-top: 1rem;
+  border-bottom: 0.1rem solid rgba(39, 39, 39, 0.7);
+  transition: 1s;
+  text-align: left;
+  padding: 0.3rem;
+  color: rgb(61, 61, 61);
+}
+
+.rightOffSubject{
+  margin: 0rem;
+}
+
+.rightOffThread{
+  margin: 0rem;
+  font-size: 0.6rem;
+  font-style: italic;
+  color: rgb(140, 140, 140);
+}
+
+.rightOffContent {
+  margin: 0rem;
+  color: rgb(180, 180, 180);
+  max-height: 2.4rem;
+  overflow-y: hidden;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.rightOffDate {
+  margin-bottom: 0.2rem;
+  margin-top: 0rem;
+  font-size: 0.6rem;
+  color: rgb(61, 61, 61);
+}
+
+.threadDivRightOff{
+  display: flex;
+  flex-direction: column;
+}
+
+.likesDivRightOff{
+  display: flex;
+  flex-direction: column;
+}
+
+.formNewUser input{
+  margin-bottom: 0.5rem;
+}
+
+.profilDivCon{
+  display: flex;
+}
+
+.profilHead1, .profilHead2{
+  display: inline-block;
+  width: 49.5%;
+  border: 0.1rem solid rgba(39, 39, 39, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  margin-top: 1rem;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.profilHead1{
+  margin-right: 1%;
+}
+
+/*------------------------------Knappar längst ner----------------------------*/
+#profilBtn, #tradBtn, #inlaggBtn, #amneBtn {
+  font-size: 0.9rem !important;
+  background-color: black;
+  transition: 1s;
+  width: 8%;
+}
+
+#profilBtn{
+  display: none;
+}
+
+.btn-close{
+  background-color: rgb(75, 75, 75) !important;
+}
+
+footer  button {
+  display: flex;
+}
+
+footer  button p, footer button  i {
+  display: inline-block;
+}
+
+footer button p {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+/*--------------------------------Toaster, alert & message*/
+#chaPassAlert, #chaPassAlertSucc, #loginAlert, #createAlert, #createAlertSucc{
+  display: none;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+#liveToast{
+  max-width: 80vw;
+}
+
+#alertDiv{
+  display: none;
+}
+
+/*----------------------------Hover effect------------------------------------*/
+.searchOption:hover, .dropdown-item:hover, .selectOption:hover{
+  background-color: rgb(75, 75, 75);
+  color: rgb(226, 226, 226);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.indexDiv:hover{
+  background-color: rgb(43, 43, 43);
+  cursor: pointer;
+}
+
+.threadDiv:hover, .subjectP:hover, .rightOffDiv:hover, .leftOffDiv:hover {
+  color: rgb(226, 226, 226);
+  cursor: pointer;
+  text-decoration: 0.1rem underline rgba(39, 39, 39, 0.7);
+  background-color: rgba(32, 32, 32, 0.253);
+  border-radius: 0.5rem;
+}
+
+#profilBtn:hover, #tradBtn:hover, #inlaggBtn:hover, #amneBtn:hover{
+  text-decoration: 0.1rem underline rgba(180, 180, 180, 0.7);
+  color: rgb(226, 226, 226) !important;
+  background-color: rgba(73, 73, 73, 0.253);
+}
+
+.profilHead1:hover, .profilHead2:hover{
+  color: rgb(226, 226, 226);
+  background-color: rgba(32, 32, 32, 0.253);
+}
+
+/*------------------------------Ändringar för mindre skärmar----------------------*/
+@media only screen and (max-width: 1400px) {
+  #mainDiv {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #tradBtn,
+  #amneBtn,
+  #inlaggBtn {
+    width: 33.33%;
+    padding: 0.1rem;
+    height: 5%;
+  }
+  #profilBtn {
+    width: 25%;
+    padding: 0.1rem;
+    height: 5%;
+  }
+  #amneBtn {
+    margin-left: 33.33%;
+  }
+
+  #divCenter {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  footer  button  p {
+    display: none;
+  }
+}
+
+/*-------------------Scroll bar----------------------------------*/
+#divCenter::-webkit-scrollbar, #divCenter::-webkit-scrollbar-track, #divCenter::-webkit-scrollbar-thumb  {
+  width: 0rem;
+  margin: 0px;
+  display: none;
+}
+#trendDivRight::-webkit-scrollbar, #trendDivRight::-webkit-scrollbar-track, #trendDivRight::-webkit-scrollbar-thumb  {
+  width: 0rem;
+  margin: 0px;
+  display: none;
+}
+#threadDivRight::-webkit-scrollbar, #threadDivRight::-webkit-scrollbar-track, #threadDivRight::-webkit-scrollbar-thumb  {
+  width: 0rem;
+  margin: 0px;
+  display: none;
+}
+
+#divLeft::-webkit-scrollbar, #divLeft::-webkit-scrollbar-track, #divLeft::-webkit-scrollbar-thumb  {
+  width: 0rem;
+  margin: 0px;
+  display: none;
+}
+
+.rightOffContent::-webkit-scrollbar, .rightOffContent::-webkit-scrollbar-track, .rightOffContent::-webkit-scrollbar-thumb  {
+  width: 0rem;
+  margin: 0px;
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(59, 59, 59) !important;
+  border-radius: 0rem;
+  border: 1px solid black;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(105, 105, 105) !important;
+  border-radius: 0.4rem;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(133, 133, 133) !important;
+}

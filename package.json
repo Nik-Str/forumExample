@@ -1,0 +1,44 @@
+{
+  "name": "bearedge",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.17.6"
+  },
+  "description": "Webb forum, made off NodeJS, SQL, Bootstrap, Javascript, html and css",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint ./"
+  },
+  "author": {
+    "name": "Niklas Strömberg",
+    "email": "niklas-stromberg@live.se"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nik-Str/forumExample.git"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.7",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "bootstrap",
+    "nodejs",
+    "javascript",
+    "mysql",
+    "express"
+  ]
+}

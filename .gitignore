@@ -1,0 +1,5 @@
+.env
+Procfile
+node_modules
+.eslintrc.json
+.DS_Store
